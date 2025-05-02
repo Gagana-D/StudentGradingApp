@@ -12,7 +12,7 @@ int even(int n,int i)
 int main()
 {
     int n,i;
-    printf("Enter the range from 0 to ?\n");
+    printf("Enter range from 0 to ?\n");
     scanf("%d",&n);
     even(n,i);
 }
