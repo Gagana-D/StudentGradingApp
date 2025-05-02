@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
-    int num1,num2, max, lcm;
+    int num1,num2, maxi, lcm;
     printf("Enter two positive integers: ");
     scanf("%d %d", &num1, &num2);
-    max = (num1 > num2) ? num1 : num2;
-    lcm = max;
+    maxi = (num1 > num2) ? num1 : num2;
+    lcm = maxi;
     while ((lcm % num1 != 0) || (lcm % num2 != 0))
         {
         lcm ++;
